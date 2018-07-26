@@ -185,3 +185,22 @@ h6 {
 a:hover {
   opacity: 0.8;
 }
+@media (min-width: 576px) {
+  .modal .modal-dialog {
+    max-width: 50%;
+  }
+}
+.modal .modal-dialog.bottom-modal-footer {
+  max-width: 100%;
+  position: fixed;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+}
+.modal .modal-dialog.bottom-modal-footer button {
+  width: 100%;
+  background-color: #00496e;
+}
+.modal .modal-dialog .modal-content {
+  border-radius: 0;
+}

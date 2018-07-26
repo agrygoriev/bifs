@@ -57,6 +57,12 @@ const FooterBlock = props => {
                   >
                     {props.textprivacy}
                   </a>
+                  <a
+                    href="/terms/"
+                    className="btn pix-white pix-padding-h-20 normal"
+                  >
+                    {props.textterms}
+                  </a>
                 </div>
               </div>
             </div>
