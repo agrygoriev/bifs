@@ -2,7 +2,6 @@ import React from "react";
 import PageHeading from "../components/page-heading";
 import ContactsSection from "../components/contacts-section";
 const ContactsPage = props => {
-  console.log(props);
   const contactsHead = {
     heading: props.contacts.heading,
     subheading: props.contacts.subheading

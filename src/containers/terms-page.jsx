@@ -1,8 +1,8 @@
 import React from "react";
-const PrivacyPage = props => {
+const TermsPage = props => {
   console.log(props);
 
-  const CreatePrivacyPolice = props => {
+  const CreateTermsText = props => {
     const text = props.paragraphs;
     const paragraphs = text.map((element, i) => (
       <section className="clear-list-item" key={i}>
@@ -32,7 +32,7 @@ const PrivacyPage = props => {
             </div>
             <div className="col-xs-12 col-sm-5 column ui-droppable col-md-12">
               <div className="pix-content pix-darkblue-transparent pix-radius-3 pix-padding-v-30 pix-margin-v-30 pix-padding-h-20">
-                <CreatePrivacyPolice paragraphs={props.data.text} />
+                <CreateTermsText paragraphs={props.data.text} />
               </div>
             </div>
           </div>
@@ -41,4 +41,4 @@ const PrivacyPage = props => {
     </main>
   );
 };
-export default PrivacyPage;
+export default TermsPage;

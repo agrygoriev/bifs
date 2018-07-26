@@ -2,6 +2,7 @@ import React from "react";
 import Route from "react-router-dom/Route";
 import MainPage from "./main-page";
 import PrivacyPage from "./privacy-page";
+import TermsPage from "./terms-page";
 import BlogPage from "./blog-page";
 import ContactsPage from "./contacts-page";
 import TellMeMore from "../components/tell-me-more";
@@ -34,6 +35,167 @@ const MainSection = props => {
           "Analytics (Google Analytics, Parsely, Alexa, Quantcast and others)",
         text:
           "Information provided to website from these platforms are collected outside of our regular scope of business and not collected at the direct request of website. Typical information collected via analytics include operating system being used, internet browser used by our visitors and the screen resolution for which our website is being viewed among other user specific data."
+      },
+      {
+        heading: "User contact info",
+        text: "Email addresses, social media accounts, cookies"
+      },
+      {
+        heading: "",
+        text:
+          "Newsletter provided emails can be used to send daily the website newsletters to our readers upon our discretion. For example, a “hot stories” email may be sent to collect user emails. In this case, our newsletter subscribers will be emailed periodically after they opted-in to the newsletter. Users will be offered an unsubscribe option with each website newsletter sent."
+      },
+      {
+        heading: "",
+        text:
+          "The email address you enter into our contact form when contacting an editor, writer, member of our advertising team and other agents on the website will be used specifically for correspondence purposes only. The same correspondence rule applies when you contact any of our staff outside of our general contact forms."
+      },
+      {
+        heading: "",
+        text:
+          "If you choose to comment through our system using Facebook Connect, Twitter or other social media networks, we do not collect your email information; however, we do gain access to your username which can be used for correspondence when appropriate."
+      },
+      {
+        heading: "",
+        text:
+          "Information collected during surveys, giveaways and other on-site forms of engagement will only be used to contact contest winners, poll participants and other users as need permits."
+      },
+      {
+        heading: "Advertising",
+        text:
+          "On occasion, the website may provide email addresses and other information to third-party vendors for the purpose of advertising targeting and data analytics. Please note this information is used to provide you with the best possible ads and not for the purpose of direct marketing by our third-party advertising and social networking partners. Our advertisers are not allowed to directly email our readers or use their personal data in a way that violates our Terms of Service and Privacy Policy."
+      },
+      {
+        heading: "",
+        text:
+          "Please note that our RSS feeds are often maintained by third-party sources who will store your personal information; those RSS feed management and other user management systems will house your personal information under their own privacy policy and terms of service."
+      },
+      {
+        heading: "",
+        text:
+          "Please note that some advertisers may place a unique cookie on your browser to identify your anonymous account. Those cookies in some cases may provide tracking data to third-party advertisers. Other advertisers on the website may also collect the same information about your personal site usage. If the website’s advertising partners are not serving those ads, our privacy policy will not apply to information collected by those ad partners."
+      },
+      {
+        heading: "Third-party access to your personal information",
+        text:
+          "The website delivers ads through Doubleclick technology, with advertising offered through multiple advertising networks and other rotating partners. Those agencies often provide frequency capping on the number of ads each user may view each day, that technology requires our third-party advertisers to collect the number of ad views peruse, geographical information and in some cases the operating system, screen resolution, computer OS and other information. Our advertisers to the best of our efforts will not collect your name, address or other personal information."
+      },
+      {
+        heading: "",
+        text:
+          "We use third-party advertising companies to serve ads and collect information when users visit our site. These companies may use information (not including your name, address, email address or telephone number) about your visits to this and other websites in order to provide advertisements on our site, other websites and other forms of media about goods and services of interest to you. If you would like more information about this practice and to know your choices about not having this information used by these companies, check out http://www.networkadvertising.org/managing/opt_out.asp"
+      },
+      {
+        heading: "The website as a public forum",
+        text:
+          "At the website we strive to protect your private information; however, please note that any public comments you make are not protected under our site’s policies. For example, Facebook comments are made available to the general public and, if chosen by you, will be displayed on your account."
+      },
+      {
+        heading: "The website comment policy",
+        text:
+          "At the website, we do not believe in the censorship of comments based on political or ideological point of view, however, we do reserve the right to remove comments that we feel are spam in nature, abusive towards users, contain foul language or appear completely off-topic from the story in which the comment is being left. In a case where a user “flames” the board with many comments left in quick successive order, we reserve the right to remove those comments."
+      },
+      {
+        heading: "",
+        text:
+          "The website reserves the right to delete a comment (it will, however, still show on your personal Facebook page), remove a comment and ban a user, and simply ban a user from further comments."
+      },
+      {
+        heading: "",
+        text:
+          "The website does not remove comments by request. Users who left comments will need to log into their own social media account and remove those comments. the website, however, will remove comments based on legal processes, in response to law enforcement and when we feel a user is making a good will attempt to clear up a misunderstanding or protect the privacy and safety of themselves and others."
+      },
+      {
+        heading: "",
+        text:
+          "The website does not tolerate hate speech, foul language, threats against users, spam and non-relevant comments related to a post."
+      },
+      {
+        heading: "",
+        text:
+          "All comments and other content contributed to the website shall adhere to the following policy, and may be edited or removed at the website’ discretion if it is deemed to be in violation of this policy."
+      },
+      {
+        heading:
+          "Facebook Open Graph Use Policy – the website Social News Reader and Facebook Connect",
+        text:
+          "In certain cases, the website will ask for your permission to gain access to your Facebook account. If you chose to use our Facebook social news reader your personal Facebook account information will allow the website to post news stories you read from our website to your Facebook news feed. In general, the Facebook social graph allows the website in certain instances to gain access to your Facebook account, however, under no circumstance will we use those permissions to post any information to your Facebook account outside of the scope of our applications originally stated goals."
+      },
+      {
+        heading: "",
+        text:
+          "Facebook Connect will always ask permission to connect with your Facebook account. The window that appears during your initial login will ask for certain Facebook permissions. By accepting those permissions, you acknowledge how and when the website can connect to your account."
+      },
+      {
+        heading: "",
+        text:
+          "In certain Facebook permission situations, users will be asked to approve certain information sharing capabilities with the website such as “their likes, their basic information and their ‘about you’ information."
+      }
+    ]
+  };
+  const termsProps = {
+    heading: "Terms & Conditions",
+    update: "Updated at: May 12, 2018",
+    text: [
+      {
+        heading: "",
+        text:
+          "In using this website you are deemed to have read and agreed to the following terms and conditions:"
+      },
+      {
+        heading: "",
+        text:
+          "The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and any or all Agreements: “Client”, “You” and “Your” refers to you, the person accessing this website and accepting the Company’s terms and conditions. “The Company\v, “Ourselves”, “We” and “Us”, refers to our Company. “Party”, “Parties”, or “Us”, refers to both the Client and ourselves, or either the Client or ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner, whether by formal meetings of a fixed duration, or any other means, for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services/products, in accordance with and subject to, prevailing English Law. Any use of the above terminology or other words in the singular, plural, capitalisation and/or he/she or they, are taken as interchangeable and therefore as referring to same."
+      },
+      {
+        heading: "Privacy Statement",
+        text:
+          "We are committed to protecting your privacy. Authorized employees within the company on a need to know basis only use any information collected from individual customers. We constantly review our systems and data to ensure the best possible service to our customers. Parliament has created specific offences for unauthorised actions against computer systems and data. We will investigate any such actions with a view to prosecuting and/or taking civil proceedings to recover damages against those responsible."
+      },
+      {
+        heading: "Availability",
+        text:
+          "Unless otherwise stated, the services featured on this website are only available within the United Kingdom, or in relation to postings from the United Kingdom. All advertising is intended solely for the United Kingdom market. You are solely responsible for evaluating the fitness for a particular purpose of any downloads, programs and text available through this site. Redistribution or republication of any part of this site or its content is prohibited, including such by framing or other similar or any other means, without the express written consent of the Company. The Company does not warrant that the service from this site will be uninterrupted, timely or error free, although it is provided to the best ability. By using this service you thereby indemnify this Company, its employees, agents and affiliates against any loss or damage, in whatever manner, howsoever caused."
+      },
+      {
+        heading: "Log Files",
+        text:
+          "We use IP addresses to analyse trends, administer the site, track user’s movement, and gather broad demographic information for aggregate use. IP addresses are not linked to personally identifiable information. Additionally, for systems administration, detecting usage patterns and troubleshooting purposes, our web servers automatically log standard access information including browser type, access times/open mail, URL requested, and referral URL. This information is not shared with third parties and is used only within this Company on a need-to-know basis. Any individually identifiable information related to this data will never be used in any way different to that stated above without your explicit permission."
+      },
+      {
+        heading: "Cookies",
+        text:
+          "Like most interactive web sites this Company’s website [or ISP] uses cookies to enable us to retrieve user details for each visit. Cookies are used in some areas of our site to enable the functionality of this area and ease of use for those people visiting. Some of our affiliate partners may also use cookies."
+      },
+      {
+        heading: "Links to this website",
+        text:
+          "You may not create a link to any page of this website without our prior written consent. If you do create a link to a page of this website you do so at your own risk and the exclusions and limitations set out above will apply to your use of this website by linking to it."
+      },
+      {
+        heading: "Links from this website",
+        text:
+          "We do not monitor or review the content of other party’s websites which are linked to from this website. Opinions expressed or material appearing on such websites are not necessarily shared or endorsed by us and should not be regarded as the publisher of such opinions or material. Please be aware that we are not responsible for the privacy practices, or content, of these sites. We encourage our users to be aware when they leave our site & to read the privacy statements of these sites. You should evaluate the security and trustworthiness of any other site connected to this site or accessed through this site yourself, before disclosing any personal information to them. This Company will not accept any responsibility for any loss or damage in whatever manner, howsoever caused, resulting from your disclosure to third parties of personal information."
+      },
+      {
+        heading: "Copyright Notice",
+        text:
+          "Copyright and other relevant intellectual property rights exists on all text relating to the Company’s services and the full content of this website. This Company’s logo is a registered trademark of this Company in the United States and other countries. The brand names and specific services of this Company featured on this web site are trade marked."
+      },
+      {
+        heading: "Communication",
+        text:
+          "We have several different e-mail addresses for different queries. These, & other contact information, can be found on our Contact Us link on our website or via Company literature or via the Company’s stated telephone, or mobile telephone numbers."
+      },
+      {
+        heading: "Notification of Changes",
+        text:
+          "The Company reserves the right to change these conditions from time to time as it sees fit and your continued use of the site will signify your acceptance of any adjustment to these terms. If there are any changes to our privacy policy, we will announce that these changes have been made on our home page and on other key pages on our site. If there are any changes in how we use our site customers’ Personally Identifiable Information, notification by e-mail or postal mail will be made to those affected by this change. Any changes to our privacy policy will be posted on our web site 30 days prior to these changes taking place. You are therefore advised to re-read this statement on a regular basis."
+      },
+      {
+        heading: "",
+        text:
+          "These terms and conditions form part of the Agreement between the Client and ourselves. Your accessing of this website and/or undertaking of a booking or Agreement indicates your understanding, agreement to and acceptance, of the Disclaimer Notice and the full Terms and Conditions contained herein. Your statutory Consumer Rights are unaffected."
       }
     ]
   };
@@ -41,7 +203,7 @@ const MainSection = props => {
     return <PrivacyPage data={privacyProps} {...props} />;
   };
   const contacts = props.contacts;
-  const ContactsPageProps = props => {
+  const ContactsPageProps = () => {
     return <ContactsPage contacts={contacts} />;
   };
   const blogProps = {
@@ -75,11 +237,14 @@ const MainSection = props => {
       }
     ]
   };
-  const BlogPageWithProps = props => {
+  const BlogPageWithProps = () => {
     return <BlogPage data={blogProps} />;
   };
   const ArticlePageWithProps = props => {
     return <ArticlePage data={blogProps} {...props} />;
+  };
+  const TermsPageWithProps = props => {
+    return <TermsPage data={termsProps} />;
   };
 
   const tellMeMoreProps = {
@@ -95,6 +260,7 @@ const MainSection = props => {
       <Route exact path="/blog/" component={BlogPageWithProps} />
       <Route exact path="/contacts/" component={ContactsPageProps} />
       <Route path="/blog/:id" component={ArticlePageWithProps} />
+      <Route exact path="/terms/" component={TermsPageWithProps} />
       <TellMeMore
         heading={tellMeMoreProps.heading}
         text={tellMeMoreProps.text}

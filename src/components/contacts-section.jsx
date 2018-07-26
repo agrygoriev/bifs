@@ -21,10 +21,12 @@ const ContactsSection = props => {
               </p>
               <div className="embed-responsive embed-responsive-4by3">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4165.018371498312!2d35.01221130964065!3d32.79594709403758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151dba5f962f6531%3A0xe4bc6445e6a6682!2zSGFHYWxpbCA0MywgSGFpZmEsINCG0LfRgNCw0ZfQu9GM!5e0!3m2!1suk!2sua!4v1532529946574"
-                  width="940"
-                  height="350"
-                  title="Map"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.834391098569!2d144.9540724152082!3d-37.81734787975174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4dd240e2b7%3A0x471dcf081469ca6a!2s114+King+St%2C+Melbourne+VIC+3000%2C+Australia!5e0!3m2!1sen!2sus!4v1532638013656"
+                  title="Address on map"
+                  width="600"
+                  height="450"
+                  frameborder="0"
+                  allowfullscreen
                 />
               </div>
             </div>

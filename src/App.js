@@ -13,10 +13,10 @@ class App extends Component {
       heading: "GIVE US A SHOUT",
       subheading:
         "We are ready to lead you into the future of personal finance",
-      street: "Hagalil 43,",
-      city: "Haifa,",
-      postcode: "32687",
-      country: "Israel"
+      street: "114 King Street,",
+      city: " Melbourne, Victoria,",
+      postcode: " 3000",
+      country: "Australia"
     };
     return (
       <BrowserRouter>
@@ -33,6 +33,7 @@ class App extends Component {
             postcode={contacts.postcode}
             country={contacts.country}
             textprivacy="Privacy Policy"
+            textterms="Terms &amp; Conditions"
           />
         </div>
       </BrowserRouter>
